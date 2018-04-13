@@ -1,0 +1,36 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Clock_Divider
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Debouncer
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Display_Controller
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Reg
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SHL
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHR.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SHR
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/andd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity andd
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/multbit.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multbit
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity multip
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/nott.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity nott
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/orr.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity orr
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sub
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity sum
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/xorr.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity xorr
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Basys3

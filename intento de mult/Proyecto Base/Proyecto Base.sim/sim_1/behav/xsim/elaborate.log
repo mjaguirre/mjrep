@@ -1,0 +1,35 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto a35b2fba0be742e6ac0032a12eca4df6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Basys3_behav xil_defaultlib.Basys3 -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling architecture behavioral of entity xil_defaultlib.Clock_Divider [clock_divider_default]
+Compiling architecture behavioral of entity xil_defaultlib.Display_Controller [display_controller_default]
+Compiling architecture behavioral of entity xil_defaultlib.Debouncer [debouncer_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.nott [nott_default]
+Compiling architecture behavioral of entity xil_defaultlib.xorr [xorr_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.sum [sum_default]
+Compiling architecture behavioral of entity xil_defaultlib.sub [sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.multbit [multbit_default]
+Compiling architecture behavioral of entity xil_defaultlib.SHL [shl_default]
+Compiling architecture behavioral of entity xil_defaultlib.multip [multip_default]
+Compiling architecture behavioral of entity xil_defaultlib.SHR [shr_default]
+Compiling architecture behavioral of entity xil_defaultlib.orr [orr_default]
+Compiling architecture behavioral of entity xil_defaultlib.andd [andd_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.basys3
+Built simulation snapshot Basys3_behav

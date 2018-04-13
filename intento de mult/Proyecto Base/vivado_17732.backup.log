@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Apr 12 22:28:00 2018
+# Process ID: 17732
+# Current directory: C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17148 C:\Users\Manuel Aguirre\Desktop\G2\Versiones\actual\Proyecto Base\Proyecto Base.xpr
+# Log file: C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/vivado.log
+# Journal file: C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.xpr}
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.srcs/sim_1/new/sim1.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Apr 12 22:32:01 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Manuel Aguirre/Desktop/G2/Versiones/actual/Proyecto Base/Proyecto Base.runs/synth_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 12 22:33:41 2018...

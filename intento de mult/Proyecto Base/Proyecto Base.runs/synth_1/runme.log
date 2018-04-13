@@ -1,0 +1,2865 @@
+
+*** Running vivado
+    with args -log Basys3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Basys3.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source Basys3.tcl -notrace
+Command: synth_design -top Basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18644 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 345.844 ; gain = 101.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Basys3' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:15]
+INFO: [Synth 8-3491] module 'Clock_Divider' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:7' bound to instance 'inst_Clock_Divider' of component 'Clock_Divider' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:13]
+INFO: [Synth 8-226] default block is never used [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider' (1#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:13]
+INFO: [Synth 8-3491] module 'Display_Controller' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:7' bound to instance 'inst_Display_Controller' of component 'Display_Controller' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'Display_Controller' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:19]
+INFO: [Synth 8-226] default block is never used [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:45]
+INFO: [Synth 8-226] default block is never used [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:52]
+INFO: [Synth 8-226] default block is never used [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'Display_Controller' (2#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:19]
+INFO: [Synth 8-3491] module 'Debouncer' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:42' bound to instance 'inst_Debouncer' of component 'Debouncer' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:130]
+INFO: [Synth 8-638] synthesizing module 'Debouncer' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:50]
+	Parameter DEBNC_CLOCKS bound to: 65536 - type: integer 
+	Parameter PORT_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Debouncer' (3#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:50]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:7' bound to instance 'inst_RegA' of component 'REG' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:136]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (4#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:16]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:7' bound to instance 'inst_RegB' of component 'REG' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:145]
+INFO: [Synth 8-3491] module 'ALU' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:4' bound to instance 'inst_ALU' of component 'ALU' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:15]
+INFO: [Synth 8-3491] module 'nott' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/nott.vhd:34' bound to instance 'op1' of component 'nott' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'nott' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/nott.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'nott' (5#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/nott.vhd:42]
+INFO: [Synth 8-3491] module 'xorr' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/xorr.vhd:34' bound to instance 'op2' of component 'xorr' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'xorr' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/xorr.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'xorr' (6#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/xorr.vhd:43]
+INFO: [Synth 8-3491] module 'sum' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:34' bound to instance 'op3' of component 'sum' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'sum' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f0' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:34' bound to instance 'h1' of component 'HA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (7#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:34' bound to instance 'h2' of component 'HA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'FA' (8#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f1' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:75]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f2' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:76]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f3' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:77]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f4' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:78]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f5' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:79]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f6' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:80]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f7' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:81]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f8' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:82]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f9' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:83]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f10' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:84]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f11' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f12' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:86]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f13' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:87]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f14' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:88]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'f15' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:89]
+INFO: [Synth 8-256] done synthesizing module 'sum' (9#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:43]
+INFO: [Synth 8-3491] module 'sub' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:34' bound to instance 'op4' of component 'sub' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:145]
+INFO: [Synth 8-638] synthesizing module 'sub' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:43]
+WARNING: [Synth 8-5640] Port 'c' is missing in component declaration [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:54]
+WARNING: [Synth 8-5640] Port 'z' is missing in component declaration [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:54]
+WARNING: [Synth 8-5640] Port 'n' is missing in component declaration [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:54]
+INFO: [Synth 8-3491] module 'nott' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/nott.vhd:34' bound to instance 'nott1' of component 'nott' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:73]
+INFO: [Synth 8-3491] module 'sum' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:34' bound to instance 'sum1' of component 'sum' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:75]
+INFO: [Synth 8-3491] module 'sum' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sum.vhd:34' bound to instance 'sum2' of component 'sum' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:77]
+INFO: [Synth 8-256] done synthesizing module 'sub' (10#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/sub.vhd:43]
+INFO: [Synth 8-3491] module 'multip' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:34' bound to instance 'op5' of component 'multip' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'multip' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:43]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm0' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:45]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA00' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:65]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA01' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:67]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA02' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:69]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA03' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:71]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA04' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:73]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA05' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:75]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA06' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:77]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA07' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:79]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA08' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:81]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA09' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:83]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA010' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA011' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:87]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA012' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:89]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA013' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:91]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA014' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:93]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA015' of component 'FA' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:95]
+INFO: [Synth 8-256] done synthesizing module 'submult' (11#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:45]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm1' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:76]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm2' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:77]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm3' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:78]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm4' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:79]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm5' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:80]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm6' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:81]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm7' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:82]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm8' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:83]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm9' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:84]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm10' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:85]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm11' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:86]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm12' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:87]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm13' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:88]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm14' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:89]
+INFO: [Synth 8-3491] module 'submult' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:34' bound to instance 'sm15' of component 'submult' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:90]
+WARNING: [Synth 8-3848] Net zs in module/entity multip does not have driver. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'multip' (12#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/multip.vhd:43]
+INFO: [Synth 8-3491] module 'SHL' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHL.vhd:34' bound to instance 'op6' of component 'SHL' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'SHL' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHL.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'SHL' (13#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHL.vhd:42]
+INFO: [Synth 8-3491] module 'SHR' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHR.vhd:34' bound to instance 'op7' of component 'SHR' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'SHR' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHR.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'SHR' (14#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/SHR.vhd:42]
+INFO: [Synth 8-3491] module 'orr' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/orr.vhd:34' bound to instance 'op8' of component 'orr' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'orr' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/orr.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'orr' (15#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/orr.vhd:43]
+INFO: [Synth 8-3491] module 'andd' declared at 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/andd.vhd:34' bound to instance 'op9' of component 'andd' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'andd' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/andd.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'andd' (16#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/andd.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (17#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Basys3' (18#1) [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:15]
+WARNING: [Synth 8-3331] design multip has unconnected port z
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 399.129 ; gain = 154.863
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 399.129 ; gain = 154.863
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/constrs_1/new/Basys3.xdc]
+Finished Parsing XDC File [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/constrs_1/new/Basys3.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/constrs_1/new/Basys3.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Basys3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 738.227 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 738.227 ; gain = 493.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 738.227 ; gain = 493.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 738.227 ; gain = 493.961
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element clock_divide_counter_reg was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:36]
+WARNING: [Synth 8-6014] Unused sequential element clock_divide_counter_reg was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[0] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[1] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[2] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[3] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element sig_cntrs_ary_reg[4] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element reg_reg was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:26]
+INFO: [Synth 8-5544] ROM "result" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'c_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:163]
+WARNING: [Synth 8-327] inferring latch for variable 'z_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:173]
+WARNING: [Synth 8-327] inferring latch for variable 'n_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:183]
+WARNING: [Synth 8-327] inferring latch for variable 'result_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:153]
+WARNING: [Synth 8-327] inferring latch for variable 'led_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:92]
+WARNING: [Synth 8-327] inferring latch for variable 'dis_a_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:100]
+WARNING: [Synth 8-327] inferring latch for variable 'dis_b_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:102]
+WARNING: [Synth 8-327] inferring latch for variable 'dis_c_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:106]
+WARNING: [Synth 8-327] inferring latch for variable 'dis_d_reg' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Basys3.vhd:108]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 738.227 ; gain = 493.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 613   
++---Registers : 
+	                5 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 17    
+	   8 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Basys3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 1     
+Module Clock_Divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+Module Display_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+Module Debouncer 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 5     
+Module Reg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module xorr 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     16 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 7     
+	   8 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-6014] Unused sequential element inst_Clock_Divider/clock_divide_counter_reg was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Clock_Divider.vhd:36]
+WARNING: [Synth 8-6014] Unused sequential element inst_Display_Controller/clock_divide_counter_reg was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Display_Controller.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[0] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[1] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[2] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[3] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_Debouncer/sig_cntrs_ary_reg[4] was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Debouncer.vhd:65]
+WARNING: [Synth 8-6014] Unused sequential element inst_RegA/reg_reg was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:26]
+WARNING: [Synth 8-6014] Unused sequential element inst_RegB/reg_reg was removed.  [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/Reg.vhd:26]
+WARNING: [Synth 8-3331] design multip has unconnected port z
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_ALU/result_reg[8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (led_reg[3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (led_reg[2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (led_reg[1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (led_reg[0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_a_reg[3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_a_reg[2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_a_reg[1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_a_reg[0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_b_reg[3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_b_reg[2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_b_reg[1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_b_reg[0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_c_reg[3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_c_reg[2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_c_reg[1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_c_reg[0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_d_reg[3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_d_reg[2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_d_reg[1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (dis_d_reg[0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][4]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][5]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][6]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][7]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[0][15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][4]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][5]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][6]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][7]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[2][15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][0]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][1]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][4]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][5]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][6]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][7]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][8]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][9]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][10]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][11]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][12]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][13]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][14]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_cntrs_ary_reg[3][15]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_out_reg_reg[3]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_out_reg_reg[2]) is unused and will be removed from module Basys3.
+WARNING: [Synth 8-3332] Sequential element (inst_Debouncer/sig_out_reg_reg[0]) is unused and will be removed from module Basys3.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 1st driver pin 'i_2/inst_ALU/op5/sm0/FA02/h2/c/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 2nd driver pin 'GND' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net cout is connected to constant driver, other driver is ignored [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 1st driver pin 'i_2/inst_ALU/op5/sm0/FA04/h2/c/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 2nd driver pin 'GND' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net cout is connected to constant driver, other driver is ignored [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 1st driver pin 'i_2/inst_ALU/op5/sm0/FA06/h2/c/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 2nd driver pin 'GND' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net cout is connected to constant driver, other driver is ignored [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 1st driver pin 'i_2/inst_ALU/op5/sm0/FA08/h2/c/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 2nd driver pin 'GND' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net cout is connected to constant driver, other driver is ignored [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 1st driver pin 'i_2/inst_ALU/op5/sm0/FA010/h2/c/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 2nd driver pin 'GND' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net cout is connected to constant driver, other driver is ignored [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 1st driver pin 'i_2/inst_ALU/op5/sm0/FA012/h2/c/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 2nd driver pin 'GND' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net cout is connected to constant driver, other driver is ignored [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 1st driver pin 'i_2/inst_ALU/op5/sm0/FA014/h2/c/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net cout with 2nd driver pin 'GND' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net cout is connected to constant driver, other driver is ignored [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 738.227 ; gain = 493.961
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 738.227 ; gain = 493.961
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /I0 (GATE_2_6_XOR)
+     2: i_2/\inst_ALU/op5/sm2/FA014/h1/s /O (GATE_2_6_XOR)
+     3: i_2/\inst_ALU/op5/sm2/FA014/h1/s /I0 (GATE_2_6_XOR)
+     4: i_2/\inst_ALU/op5/sm15/FA015/h2/s /O (GATE_2_6_XOR)
+     5: i_2/\inst_ALU/op5/sm15/FA015/h2/s /I1 (GATE_2_6_XOR)
+     6: i_2/\inst_ALU/op5/sm15/FA014/cout /O (GATE_2_14_OR)
+     7: i_2/\inst_ALU/op5/sm15/FA014/cout /I0 (GATE_2_14_OR)
+     8: i_2/\inst_ALU/op5/sm15/FA013/h1/c /O (GATE_2_8_AND)
+     9: i_2/\inst_ALU/op5/sm15/FA013/h1/c /I0 (GATE_2_8_AND)
+    10: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I0 -to O i_2/\inst_ALU/op5/sm2/FA014/h2/s "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm15/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm15/FA014/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm15/FA014/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm15/FA014/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm15/FA013/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm15/FA013/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm15/FA013/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm15/FA013/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm15/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm15/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm13/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm13/FA014/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm13/FA014/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm13/FA014/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm13/FA013/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm13/FA013/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm13/FA013/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm13/FA013/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm13/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm13/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm11/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm11/FA014/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm11/FA014/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm11/FA014/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm11/FA013/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm11/FA013/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm11/FA013/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm11/FA013/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm11/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm11/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm9/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm9/FA014/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm9/FA014/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm9/FA014/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm9/FA013/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm9/FA013/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm9/FA013/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm9/FA013/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm9/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm9/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm7/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm7/FA014/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm7/FA014/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm7/FA014/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm7/FA013/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm7/FA013/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm7/FA013/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm7/FA013/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm7/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm7/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm5/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm5/FA014/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm5/FA014/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm5/FA014/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm5/FA013/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm5/FA013/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm5/FA013/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm5/FA013/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm5/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm5/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm3/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm3/FA014/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm3/FA014/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm3/FA014/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm3/FA013/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm3/FA013/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm3/FA013/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm3/FA013/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm3/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm3/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /I0 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm1/FA013/h1/c /I0 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     5: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I0 -to O i_2/\inst_ALU/op5/sm1/FA014/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     1: i_2/\inst_ALU/op5/sm2/FA014/h2/s /I1 (GATE_2_6_XOR)
+     2: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     3: i_2/\inst_ALU/op5/sm2/FA013/cout /I0 (GATE_2_14_OR)
+     4: i_2/\inst_ALU/op5/sm2/FA013/h1/c /O (GATE_2_8_AND)
+     5: i_2/\inst_ALU/op5/sm2/FA013/h1/c /I0 (GATE_2_8_AND)
+     6: i_2/\inst_ALU/op5/sm15/FA014/h2/s /O (GATE_2_6_XOR)
+     7: i_2/\inst_ALU/op5/sm15/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm2/FA014/h2/s "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     1: i_2/\inst_ALU/op5/sm1/FA013/h1/c /I0 (GATE_2_8_AND)
+     2: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+     3: i_2/\inst_ALU/op5/sm2/FA014/h2/s /O (GATE_2_6_XOR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I0 -to O i_2/\inst_ALU/op5/sm1/FA013/h1/c "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     1: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     1: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     1: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     1: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     1: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+     1: i_2/\inst_ALU/op5/sm1/FA013/h1/c /O (GATE_2_8_AND)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm2/FA013/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm2/FA013/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm2/FA013/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm2/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm2/FA014/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm2/FA014/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm2/FA014/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm2/FA013/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm2/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm4/FA013/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm4/FA013/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm4/FA013/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm4/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm4/FA014/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm4/FA014/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm4/FA014/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm4/FA013/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm4/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm6/FA013/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm6/FA013/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm6/FA013/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm6/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm6/FA014/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm6/FA014/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm6/FA014/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm6/FA013/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm6/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm8/FA013/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm8/FA013/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm8/FA013/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm8/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm8/FA014/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm8/FA014/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm8/FA014/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm8/FA013/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm8/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm10/FA013/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm10/FA013/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm10/FA013/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm10/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm10/FA014/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm10/FA014/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm10/FA014/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm10/FA013/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm10/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm12/FA013/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm12/FA013/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm12/FA013/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm12/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm12/FA014/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm12/FA014/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm12/FA014/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm12/FA013/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm12/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm14/FA013/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm14/FA013/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm14/FA013/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm14/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm14/FA014/cout /I1 (GATE_2_14_OR)
+     6: i_2/\inst_ALU/op5/sm14/FA014/h2/c /O (GATE_2_8_AND)
+     7: i_2/\inst_ALU/op5/sm14/FA014/h2/c /I1 (GATE_2_8_AND)
+     8: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm14/FA013/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm14/FA013/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA015/cout /I1 (GATE_2_14_OR)
+     2: i_2/\inst_ALU/op5/sm1/FA015/h2/c /O (GATE_2_8_AND)
+     3: i_2/\inst_ALU/op5/sm1/FA015/h2/c /I1 (GATE_2_8_AND)
+     4: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+     5: i_2/\inst_ALU/op5/sm1/FA014/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Inferred a: "set_disable_timing -from I1 -to O i_2/\inst_ALU/op5/sm1/FA015/cout "
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/ALU.vhd:142]
+INFO: [Common 17-14] Message 'Synth 8-295' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Found timing loop:
+     0: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+     1: i_2/\inst_ALU/op5/sm1/FA015/cout /O (GATE_2_14_OR)
+INFO: [Synth 8-139] cannot merge instances i_2/\inst_ALU/op5/sm1/FA013/h1/c  and i_2/\inst_ALU/op5/sm1/FA00/h1/c  because of non-equivalent assertions
+INFO: [Synth 8-620] skipping equivalence-propagation across instance 'i_2/\inst_ALU/op5/sm1/FA015/cout ' with timing assertions on output pin 'O'
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 743.125 ; gain = 498.859
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-139] cannot merge instances \inst_ALU/op5/sm1/FA013/h1/c  and \inst_ALU/op5/sm1/FA00/h1/c  because of non-equivalent assertions
+INFO: [Synth 8-139] cannot merge instances \inst_ALU/op5/sm1/FA013/h1/c  and \inst_ALU/op5/sm1/FA00/h1/c  because of non-equivalent assertions
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/I1 (LUT2)
+     2: i_647/O (LUT3)
+     3: i_647/I2 (LUT3)
+     4: i_1280/O (LUT2)
+     5: i_1280/I1 (LUT2)
+     6: i_648/O (LUT3)
+     7: i_648/I2 (LUT3)
+     8: i_1279/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1279"
+Found timing loop:
+     0: i_1251/O (LUT2)
+     1: i_1251/I1 (LUT2)
+     2: h2__13__16i_414/O (LUT3)
+     3: h2__13__16i_414/I2 (LUT3)
+     4: i_1249/O (LUT2)
+     5: i_1249/I1 (LUT2)
+     6: h2__10__16i_402/O (LUT3)
+     7: h2__10__16i_402/I2 (LUT3)
+     8: i_1251/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1251"
+Found timing loop:
+     0: i_1280/O (LUT2)
+     1: i_1280/I1 (LUT2)
+     2: i_648/O (LUT3)
+     3: i_648/I2 (LUT3)
+     4: i_1279/O (LUT2)
+     5: i_1279/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1280"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_1222/O (LUT2)
+     1: i_1222/I1 (LUT2)
+     2: i_652/O (LUT3)
+     3: i_652/I2 (LUT3)
+     4: i_1221/O (LUT2)
+     5: i_1221/I1 (LUT2)
+     6: i_651/O (LUT3)
+     7: i_651/I2 (LUT3)
+     8: i_1222/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1222"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_1164/O (LUT2)
+     1: i_1164/I1 (LUT2)
+     2: i_656/O (LUT3)
+     3: i_656/I2 (LUT3)
+     4: i_1163/O (LUT2)
+     5: i_1163/I1 (LUT2)
+     6: i_655/O (LUT3)
+     7: i_655/I2 (LUT3)
+     8: i_1164/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1164"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_1106/O (LUT2)
+     1: i_1106/I1 (LUT2)
+     2: i_660/O (LUT3)
+     3: i_660/I2 (LUT3)
+     4: i_1105/O (LUT2)
+     5: i_1105/I1 (LUT2)
+     6: i_659/O (LUT3)
+     7: i_659/I2 (LUT3)
+     8: i_1106/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1106"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_1048/O (LUT2)
+     1: i_1048/I1 (LUT2)
+     2: i_663/O (LUT3)
+     3: i_663/I2 (LUT3)
+     4: i_1300/O (LUT2)
+     5: i_1300/I0 (LUT2)
+     6: sm0i_541/O (LUT2)
+     7: sm0i_541/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1048"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_990/O (LUT2)
+     1: i_990/I1 (LUT2)
+     2: i_665/O (LUT3)
+     3: i_665/I2 (LUT3)
+     4: i_1299/O (LUT2)
+     5: i_1299/I0 (LUT2)
+     6: sm0i_541/O (LUT2)
+     7: sm0i_541/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_990"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_932/O (LUT2)
+     1: i_932/I1 (LUT2)
+     2: i_667/O (LUT3)
+     3: i_667/I2 (LUT3)
+     4: i_1298/O (LUT2)
+     5: i_1298/I0 (LUT2)
+     6: sm0i_541/O (LUT2)
+     7: sm0i_541/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_932"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_874/O (LUT2)
+     1: i_874/I1 (LUT2)
+     2: i_669/O (LUT3)
+     3: i_669/I2 (LUT3)
+     4: i_1297/O (LUT2)
+     5: i_1297/I0 (LUT2)
+     6: sm0i_541/O (LUT2)
+     7: sm0i_541/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_874"
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: sm0i_541/O (LUT2)
+     1: sm0i_541/O (LUT2)
+Found timing loop:
+     0: i_1251/O (LUT2)
+     1: i_1251/O (LUT2)
+Found timing loop:
+     0: i_1280/O (LUT2)
+     1: i_1280/O (LUT2)
+Found timing loop:
+     0: i_1251/O (LUT2)
+     1: i_1251/O (LUT2)
+Found timing loop:
+     0: i_1280/O (LUT2)
+     1: i_1280/O (LUT2)
+Found timing loop:
+     0: i_1251/O (LUT2)
+     1: i_1251/O (LUT2)
+Found timing loop:
+     0: i_1280/O (LUT2)
+     1: i_1280/O (LUT2)
+Found timing loop:
+     0: i_1251/O (LUT2)
+     1: i_1251/O (LUT2)
+Found timing loop:
+     0: i_1280/O (LUT2)
+     1: i_1280/O (LUT2)
+Found timing loop:
+     0: i_1251/O (LUT2)
+     1: i_1251/O (LUT2)
+Found timing loop:
+     0: i_1280/O (LUT2)
+     1: i_1280/O (LUT2)
+Found timing loop:
+     0: i_1251/O (LUT2)
+     1: i_1251/O (LUT2)
+Found timing loop:
+     0: i_1280/O (LUT2)
+     1: i_1280/O (LUT2)
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_832/O (LUT2)
+     1: i_832/I1 (LUT2)
+     2: i_1279/O (LUT2)
+     3: i_1279/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_832"
+Found timing loop:
+     0: i_1279/O (LUT2)
+     1: i_1279/O (LUT2)
+Found timing loop:
+     0: i_1193/O (LUT2)
+     1: i_1193/I1 (LUT2)
+     2: h2__13__14i_354/O (LUT3)
+     3: h2__13__14i_354/I2 (LUT3)
+     4: i_1191/O (LUT2)
+     5: i_1191/I1 (LUT2)
+     6: h2__10__14i_342/O (LUT3)
+     7: h2__10__14i_342/I2 (LUT3)
+     8: i_1193/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1193"
+Found timing loop:
+     0: i_1193/O (LUT2)
+     1: i_1193/O (LUT2)
+Found timing loop:
+     0: i_1193/O (LUT2)
+     1: i_1193/O (LUT2)
+Found timing loop:
+     0: i_1193/O (LUT2)
+     1: i_1193/O (LUT2)
+Found timing loop:
+     0: i_1193/O (LUT2)
+     1: i_1193/O (LUT2)
+Found timing loop:
+     0: i_1193/O (LUT2)
+     1: i_1193/O (LUT2)
+Found timing loop:
+     0: i_1193/O (LUT2)
+     1: i_1193/O (LUT2)
+Found timing loop:
+     0: i_832/O (LUT2)
+     1: i_832/O (LUT2)
+Found timing loop:
+     0: i_1135/O (LUT2)
+     1: i_1135/I1 (LUT2)
+     2: h2__13__12i_294/O (LUT3)
+     3: h2__13__12i_294/I2 (LUT3)
+     4: i_1133/O (LUT2)
+     5: i_1133/I1 (LUT2)
+     6: h2__10__12i_282/O (LUT3)
+     7: h2__10__12i_282/I2 (LUT3)
+     8: i_1135/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1135"
+Found timing loop:
+     0: i_1135/O (LUT2)
+     1: i_1135/O (LUT2)
+Found timing loop:
+     0: i_1135/O (LUT2)
+     1: i_1135/O (LUT2)
+Found timing loop:
+     0: i_1135/O (LUT2)
+     1: i_1135/O (LUT2)
+Found timing loop:
+     0: i_1135/O (LUT2)
+     1: i_1135/O (LUT2)
+Found timing loop:
+     0: i_1135/O (LUT2)
+     1: i_1135/O (LUT2)
+Found timing loop:
+     0: i_1135/O (LUT2)
+     1: i_1135/O (LUT2)
+Found timing loop:
+     0: i_832/O (LUT2)
+     1: i_832/O (LUT2)
+Found timing loop:
+     0: i_1077/O (LUT2)
+     1: i_1077/I1 (LUT2)
+     2: h2__13__10i_234/O (LUT3)
+     3: h2__13__10i_234/I2 (LUT3)
+     4: i_1075/O (LUT2)
+     5: i_1075/I1 (LUT2)
+     6: h2__10__10i_222/O (LUT3)
+     7: h2__10__10i_222/I2 (LUT3)
+     8: i_1077/O (LUT2)
+Inferred a: "set_disable_timing -from I1 -to O i_1077"
+Found timing loop:
+     0: i_1077/O (LUT2)
+     1: i_1077/O (LUT2)
+Found timing loop:
+     0: i_1077/O (LUT2)
+     1: i_1077/O (LUT2)
+Found timing loop:
+     0: i_1077/O (LUT2)
+     1: i_1077/O (LUT2)
+Found timing loop:
+     0: i_1077/O (LUT2)
+     1: i_1077/O (LUT2)
+Found timing loop:
+     0: i_1077/O (LUT2)
+     1: i_1077/O (LUT2)
+Found timing loop:
+     0: i_1077/O (LUT2)
+     1: i_1077/O (LUT2)
+Found timing loop:
+     0: i_832/O (LUT2)
+     1: i_832/O (LUT2)
+Found timing loop:
+     0: i_832/O (LUT2)
+     1: i_832/O (LUT2)
+Found timing loop:
+     0: i_544/O (LUT2)
+     1: i_544/I0 (LUT2)
+     2: i_832/O (LUT2)
+     3: i_832/O (LUT2)
+Inferred a: "set_disable_timing -from I0 -to O i_544"
+Found timing loop:
+     0: i_544/O (LUT2)
+     1: i_544/O (LUT2)
+Found timing loop:
+     0: i_544/O (LUT2)
+     1: i_544/O (LUT2)
+Found timing loop:
+     0: i_544/O (LUT2)
+     1: i_544/O (LUT2)
+Found timing loop:
+     0: i_544/O (LUT2)
+     1: i_544/O (LUT2)
+Found timing loop:
+     0: i_544/O (LUT2)
+     1: i_544/O (LUT2)
+Found timing loop:
+     0: i_544/O (LUT2)
+     1: i_544/O (LUT2)
+Found timing loop:
+     0: i_832/O (LUT2)
+     1: i_832/O (LUT2)
+Found timing loop:
+     0: i_543/O (LUT2)
+     1: i_543/I0 (LUT2)
+     2: i_832/O (LUT2)
+     3: i_832/O (LUT2)
+Inferred a: "set_disable_timing -from I0 -to O i_543"
+Found timing loop:
+     0: i_543/O (LUT2)
+     1: i_543/O (LUT2)
+Found timing loop:
+     0: i_543/O (LUT2)
+     1: i_543/O (LUT2)
+Found timing loop:
+     0: i_543/O (LUT2)
+     1: i_543/O (LUT2)
+Found timing loop:
+     0: i_543/O (LUT2)
+     1: i_543/O (LUT2)
+Found timing loop:
+     0: i_543/O (LUT2)
+     1: i_543/O (LUT2)
+Found timing loop:
+     0: i_543/O (LUT2)
+     1: i_543/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/I0 (LUT2)
+     2: i_832/O (LUT2)
+     3: i_832/O (LUT2)
+Inferred a: "set_disable_timing -from I0 -to O i_542"
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+Found timing loop:
+     0: i_542/O (LUT2)
+     1: i_542/O (LUT2)
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 1st driver pin 'h2__14__17i_418/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 2nd driver pin 'h2__14__15i_358/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 3rd driver pin 'h2__14__13i_298/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 4th driver pin 'h2__14__11i_238/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 5th driver pin 'h2__14__9i_178/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 6th driver pin 'h2__14__7i_120/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 7th driver pin 'h2__14__5i_62/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/ar2[14] with 8th driver pin 'h2__14__3i_4/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:45]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 1st driver pin 'i_890/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:64]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 2nd driver pin 'i_889/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 3rd driver pin 'i_888/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:68]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 4th driver pin 'i_887/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:70]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 5th driver pin 'i_886/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:72]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 6th driver pin 'i_885/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:74]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 7th driver pin 'i_884/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:76]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 8th driver pin 'i_883/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:78]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 9th driver pin 'i_882/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:80]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 10th driver pin 'i_881/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:82]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 11th driver pin 'i_880/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:84]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 12th driver pin 'i_879/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:86]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 13th driver pin 'i_878/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:88]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 14th driver pin 'i_877/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:90]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 15th driver pin 'i_876/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:92]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA015/s1 with 16th driver pin 'i_875/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:94]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 1st driver pin 'i_666/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 2nd driver pin 'i_665/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 3rd driver pin 'i_664/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 4th driver pin 'i_663/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 5th driver pin 'i_662/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 6th driver pin 'i_661/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 7th driver pin 'i_660/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm1/FA00/c with 8th driver pin 'i_1297/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 1st driver pin 'h2__14__17i_419/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 2nd driver pin 'h2__14__15i_359/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 3rd driver pin 'h2__14__13i_299/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 4th driver pin 'h2__14__11i_239/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 5th driver pin 'h2__14__9i_179/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 6th driver pin 'h2__14__7i_121/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 7th driver pin 'h2__14__5i_63/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/c_mult with 8th driver pin 'h2__14__3i_5/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 1st driver pin 'i_948/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:64]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 2nd driver pin 'i_947/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 3rd driver pin 'i_946/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:68]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 4th driver pin 'i_945/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:70]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 5th driver pin 'i_944/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:72]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 6th driver pin 'i_943/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:74]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 7th driver pin 'i_942/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:76]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 8th driver pin 'i_941/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:78]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 9th driver pin 'i_940/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:80]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 10th driver pin 'i_939/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:82]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 11th driver pin 'i_938/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:84]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 12th driver pin 'i_937/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:86]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 13th driver pin 'i_936/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:88]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 14th driver pin 'i_935/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:90]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 15th driver pin 'i_934/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:92]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA015/s1 with 16th driver pin 'i_933/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:94]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 1st driver pin 'i_409/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 2nd driver pin 'i_408/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 3rd driver pin 'i_407/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 4th driver pin 'i_406/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 5th driver pin 'i_405/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 6th driver pin 'i_404/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 7th driver pin 'i_403/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm3/FA00/c with 8th driver pin 'i_1298/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/HA.vhd:47]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 1st driver pin 'i_1006/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:64]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 2nd driver pin 'i_1005/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:66]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 3rd driver pin 'i_1004/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:68]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 4th driver pin 'i_1003/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:70]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 5th driver pin 'i_1002/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:72]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 6th driver pin 'i_1001/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:74]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 7th driver pin 'i_1000/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:76]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 8th driver pin 'i_999/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:78]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 9th driver pin 'i_998/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:80]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 10th driver pin 'i_997/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:82]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 11th driver pin 'i_996/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:84]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 12th driver pin 'i_995/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:86]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 13th driver pin 'i_994/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:88]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 14th driver pin 'i_993/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:90]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 15th driver pin 'i_992/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:92]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA015/s1 with 16th driver pin 'i_991/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/submult.vhd:94]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA00/c with 1st driver pin 'i_381/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA00/c with 2nd driver pin 'i_380/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA00/c with 3rd driver pin 'i_379/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA00/c with 4th driver pin 'i_378/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA00/c with 5th driver pin 'i_377/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net inst_ALU/op5/sm5/FA00/c with 6th driver pin 'i_376/O' [C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.srcs/sources_1/new/FA.vhd:60]
+INFO: [Common 17-14] Message 'Synth 8-3352' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       62|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:33 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /I2 (LUT3)
+     2: \result_reg[7]_i_401 /O (LUT3)
+     3: \result_reg[7]_i_401 /I2 (LUT3)
+     4: \result_reg[7]_i_141 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_141 "
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/I2 (LUT3)
+     2: c_reg_i_133/O (LUT3)
+     3: c_reg_i_133/I2 (LUT3)
+     4: c_reg_i_192/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_192"
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_149 /O (LUT3)
+     1: \result_reg[7]_i_149 /I2 (LUT3)
+     2: \result_reg[7]_i_408 /O (LUT3)
+     3: \result_reg[7]_i_408 /I2 (LUT3)
+     4: \result_reg[7]_i_149 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_149 "
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /I2 (LUT3)
+     2: c_reg_i_192/O (LUT3)
+     3: c_reg_i_192/I0 (LUT3)
+     4: \result_reg[7]_i_2 /O (LUT3)
+     5: \result_reg[7]_i_2 /I2 (LUT3)
+     6: \result_reg[7]_i_141 /O (LUT3)
+     7: \result_reg[7]_i_141 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_204 "
+Found timing loop:
+     0: \result_reg[7]_i_149 /O (LUT3)
+     1: \result_reg[7]_i_149 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /I2 (LUT3)
+     4: \result_reg[7]_i_141 /O (LUT3)
+     5: \result_reg[7]_i_141 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_192"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /I2 (LUT3)
+     2: \result_reg[7]_i_141 /O (LUT3)
+     3: \result_reg[7]_i_141 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_2 "
+Found timing loop:
+     0: c_reg_i_185/O (LUT3)
+     1: c_reg_i_185/I2 (LUT3)
+     2: c_reg_i_125/O (LUT3)
+     3: c_reg_i_125/I2 (LUT3)
+     4: c_reg_i_185/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_185"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_185/O (LUT3)
+     1: c_reg_i_185/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_185"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_185/O (LUT3)
+     1: c_reg_i_185/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_185/O (LUT3)
+     1: c_reg_i_185/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_185/O (LUT3)
+     1: c_reg_i_185/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_185/O (LUT3)
+     1: c_reg_i_185/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_185/O (LUT3)
+     1: c_reg_i_185/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_178/O (LUT3)
+     1: c_reg_i_178/I2 (LUT3)
+     2: c_reg_i_117/O (LUT3)
+     3: c_reg_i_117/I2 (LUT3)
+     4: c_reg_i_178/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_178"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_178/O (LUT3)
+     1: c_reg_i_178/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_178"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_178/O (LUT3)
+     1: c_reg_i_178/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_178/O (LUT3)
+     1: c_reg_i_178/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_178/O (LUT3)
+     1: c_reg_i_178/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_178/O (LUT3)
+     1: c_reg_i_178/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_178/O (LUT3)
+     1: c_reg_i_178/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_171/O (LUT3)
+     1: c_reg_i_171/I2 (LUT3)
+     2: c_reg_i_109/O (LUT3)
+     3: c_reg_i_109/I2 (LUT3)
+     4: c_reg_i_171/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_171"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_171/O (LUT3)
+     1: c_reg_i_171/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_171"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_171/O (LUT3)
+     1: c_reg_i_171/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_171/O (LUT3)
+     1: c_reg_i_171/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_171/O (LUT3)
+     1: c_reg_i_171/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_171/O (LUT3)
+     1: c_reg_i_171/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_171/O (LUT3)
+     1: c_reg_i_171/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_164/O (LUT3)
+     1: c_reg_i_164/I2 (LUT3)
+     2: c_reg_i_101/O (LUT3)
+     3: c_reg_i_101/I2 (LUT3)
+     4: c_reg_i_164/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_164"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_164/O (LUT3)
+     1: c_reg_i_164/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_164"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_164/O (LUT3)
+     1: c_reg_i_164/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_164/O (LUT3)
+     1: c_reg_i_164/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_164/O (LUT3)
+     1: c_reg_i_164/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_164/O (LUT3)
+     1: c_reg_i_164/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_164/O (LUT3)
+     1: c_reg_i_164/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_157/O (LUT3)
+     1: c_reg_i_157/I2 (LUT3)
+     2: c_reg_i_77/O (LUT3)
+     3: c_reg_i_77/I2 (LUT3)
+     4: c_reg_i_157/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_157"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_157/O (LUT3)
+     1: c_reg_i_157/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_157"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_157/O (LUT3)
+     1: c_reg_i_157/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_157/O (LUT3)
+     1: c_reg_i_157/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_157/O (LUT3)
+     1: c_reg_i_157/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_157/O (LUT3)
+     1: c_reg_i_157/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_157/O (LUT3)
+     1: c_reg_i_157/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_150/O (LUT3)
+     1: c_reg_i_150/I2 (LUT3)
+     2: c_reg_i_53/O (LUT3)
+     3: c_reg_i_53/I2 (LUT3)
+     4: c_reg_i_150/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_150"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_150/O (LUT3)
+     1: c_reg_i_150/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_150"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_150/O (LUT3)
+     1: c_reg_i_150/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_150/O (LUT3)
+     1: c_reg_i_150/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_150/O (LUT3)
+     1: c_reg_i_150/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_150/O (LUT3)
+     1: c_reg_i_150/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_150/O (LUT3)
+     1: c_reg_i_150/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_143/O (LUT3)
+     1: c_reg_i_143/I2 (LUT3)
+     2: c_reg_i_29/O (LUT3)
+     3: c_reg_i_29/I2 (LUT3)
+     4: c_reg_i_143/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_143"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_143/O (LUT3)
+     1: c_reg_i_143/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_143"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_143/O (LUT3)
+     1: c_reg_i_143/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_143/O (LUT3)
+     1: c_reg_i_143/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_143/O (LUT3)
+     1: c_reg_i_143/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_143/O (LUT3)
+     1: c_reg_i_143/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_143/O (LUT3)
+     1: c_reg_i_143/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_149 /O (LUT3)
+     1: \result_reg[7]_i_149 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_149 /O (LUT3)
+     1: \result_reg[7]_i_149 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_149 /O (LUT3)
+     1: \result_reg[7]_i_149 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_149 /O (LUT3)
+     1: \result_reg[7]_i_149 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_149 /O (LUT3)
+     1: \result_reg[7]_i_149 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_133/O (LUT3)
+     1: c_reg_i_133/I2 (LUT3)
+     2: c_reg_i_192/O (LUT3)
+     3: c_reg_i_192/O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O c_reg_i_133"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_133/O (LUT3)
+     1: c_reg_i_133/I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O c_reg_i_133"
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_133/O (LUT3)
+     1: c_reg_i_133/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_133/O (LUT3)
+     1: c_reg_i_133/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_133/O (LUT3)
+     1: c_reg_i_133/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_133/O (LUT3)
+     1: c_reg_i_133/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_157 /O (LUT3)
+     1: \result_reg[7]_i_157 /I2 (LUT3)
+     2: \result_reg[7]_i_415 /O (LUT3)
+     3: \result_reg[7]_i_415 /I2 (LUT3)
+     4: \result_reg[7]_i_157 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_157 "
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /I0 (LUT3)
+     2: \result_reg[7]_i_2 /O (LUT3)
+     3: \result_reg[7]_i_2 /O (LUT3)
+Inferred a: "set_disable_timing -from I0 -to O \result_reg[7]_i_204 "
+Found timing loop:
+     0: \result_reg[7]_i_157 /O (LUT3)
+     1: \result_reg[7]_i_157 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_157 /O (LUT3)
+     1: \result_reg[7]_i_157 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_157 /O (LUT3)
+     1: \result_reg[7]_i_157 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_157 /O (LUT3)
+     1: \result_reg[7]_i_157 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_157 /O (LUT3)
+     1: \result_reg[7]_i_157 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_157 /O (LUT3)
+     1: \result_reg[7]_i_157 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_181 /O (LUT3)
+     1: \result_reg[7]_i_181 /I2 (LUT3)
+     2: \result_reg[7]_i_197 /O (LUT3)
+     3: \result_reg[7]_i_197 /I2 (LUT3)
+     4: \result_reg[7]_i_181 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_181 "
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_181 /O (LUT3)
+     1: \result_reg[7]_i_181 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_181 /O (LUT3)
+     1: \result_reg[7]_i_181 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_181 /O (LUT3)
+     1: \result_reg[7]_i_181 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_181 /O (LUT3)
+     1: \result_reg[7]_i_181 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_181 /O (LUT3)
+     1: \result_reg[7]_i_181 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_181 /O (LUT3)
+     1: \result_reg[7]_i_181 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_133/O (LUT3)
+     1: c_reg_i_133/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_2 /O (LUT3)
+     1: \result_reg[7]_i_2 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_324 /O (LUT3)
+     1: \result_reg[7]_i_324 /I2 (LUT3)
+     2: \result_reg[7]_i_332 /O (LUT3)
+     3: \result_reg[7]_i_332 /I2 (LUT3)
+     4: \result_reg[7]_i_324 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_324 "
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_324 /O (LUT3)
+     1: \result_reg[7]_i_324 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_324 /O (LUT3)
+     1: \result_reg[7]_i_324 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_324 /O (LUT3)
+     1: \result_reg[7]_i_324 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_324 /O (LUT3)
+     1: \result_reg[7]_i_324 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_324 /O (LUT3)
+     1: \result_reg[7]_i_324 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_324 /O (LUT3)
+     1: \result_reg[7]_i_324 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_355 /O (LUT3)
+     1: \result_reg[7]_i_355 /I2 (LUT3)
+     2: \result_reg[7]_i_363 /O (LUT3)
+     3: \result_reg[7]_i_363 /I2 (LUT3)
+     4: \result_reg[7]_i_355 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_355 "
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_355 /O (LUT3)
+     1: \result_reg[7]_i_355 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_355 /O (LUT3)
+     1: \result_reg[7]_i_355 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_355 /O (LUT3)
+     1: \result_reg[7]_i_355 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_355 /O (LUT3)
+     1: \result_reg[7]_i_355 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_355 /O (LUT3)
+     1: \result_reg[7]_i_355 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_355 /O (LUT3)
+     1: \result_reg[7]_i_355 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_386 /O (LUT3)
+     1: \result_reg[7]_i_386 /I2 (LUT3)
+     2: \result_reg[7]_i_394 /O (LUT3)
+     3: \result_reg[7]_i_394 /I2 (LUT3)
+     4: \result_reg[7]_i_386 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_386 "
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_386 /O (LUT3)
+     1: \result_reg[7]_i_386 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_386 /O (LUT3)
+     1: \result_reg[7]_i_386 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_386 /O (LUT3)
+     1: \result_reg[7]_i_386 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_386 /O (LUT3)
+     1: \result_reg[7]_i_386 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_386 /O (LUT3)
+     1: \result_reg[7]_i_386 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_386 /O (LUT3)
+     1: \result_reg[7]_i_386 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_401 /O (LUT3)
+     1: \result_reg[7]_i_401 /I2 (LUT3)
+     2: \result_reg[7]_i_141 /O (LUT3)
+     3: \result_reg[7]_i_141 /O (LUT3)
+Inferred a: "set_disable_timing -from I2 -to O \result_reg[7]_i_401 "
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_401 /O (LUT3)
+     1: \result_reg[7]_i_401 /I1 (LUT3)
+     2: \result_reg[7]_i_204 /O (LUT3)
+     3: \result_reg[7]_i_204 /O (LUT3)
+Inferred a: "set_disable_timing -from I1 -to O \result_reg[7]_i_401 "
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_401 /O (LUT3)
+     1: \result_reg[7]_i_401 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_401 /O (LUT3)
+     1: \result_reg[7]_i_401 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_401 /O (LUT3)
+     1: \result_reg[7]_i_401 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_401 /O (LUT3)
+     1: \result_reg[7]_i_401 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_401 /O (LUT3)
+     1: \result_reg[7]_i_401 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_204 /O (LUT3)
+     1: \result_reg[7]_i_204 /O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: c_reg_i_192/O (LUT3)
+     1: c_reg_i_192/O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+Found timing loop:
+     0: \result_reg[7]_i_141 /O (LUT3)
+     1: \result_reg[7]_i_141 /O (LUT3)
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    32|
+|3     |LUT1   |     5|
+|4     |LUT2   |   343|
+|5     |LUT3   |   471|
+|6     |LUT4   |    32|
+|7     |LUT5   |    33|
+|8     |LUT6   |    96|
+|9     |MUXF7  |     3|
+|10    |FDRE   |   113|
+|11    |LD     |    11|
+|12    |IBUF   |    10|
+|13    |OBUF   |    16|
++------+-------+------+
+
+Report Instance Areas: 
++------+--------------------------+-------------------+------+
+|      |Instance                  |Module             |Cells |
++------+--------------------------+-------------------+------+
+|1     |top                       |                   |  1167|
+|2     |  inst_ALU                |ALU                |   506|
+|3     |    op1                   |nott               |     4|
+|4     |    op2                   |xorr               |     4|
+|5     |    op3                   |sum                |     8|
+|6     |    op4                   |sub                |     7|
+|7     |      sum2                |sum_1              |     7|
+|8     |    op6                   |SHL                |     1|
+|9     |    op7                   |SHR                |     1|
+|10    |    op8                   |orr                |     8|
+|11    |    op9                   |andd               |     5|
+|12    |  inst_Clock_Divider      |Clock_Divider      |    60|
+|13    |  inst_Debouncer          |Debouncer          |   100|
+|14    |  inst_Display_Controller |Display_Controller |    57|
+|15    |  inst_RegA               |Reg                |   329|
+|16    |  inst_RegB               |Reg_0              |    57|
++------+--------------------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 754.035 ; gain = 509.770
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1313 critical warnings and 106 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 754.035 ; gain = 170.672
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 754.035 ; gain = 509.770
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 56 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 11 instances were transformed.
+  LD => LDCE: 11 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+128 Infos, 111 Warnings, 207 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 754.035 ; gain = 522.766
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Manuel Aguirre/Desktop/intento de mult/Proyecto Base/Proyecto Base.runs/synth_1/Basys3.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Basys3_utilization_synth.rpt -pb Basys3_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 754.035 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 13 12:34:04 2018...
